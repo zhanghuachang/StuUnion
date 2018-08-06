@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.PositionDao">
+
+    <resultMap id="PositionBaseMap" type="com.ctgu.pojo.Position">
+        <id column="p_id" property="p_id"/>
+        <result column="p_name" property="p_name"/>
+    </resultMap>
+
+    <!--获取所有职位信息-->
+    <select id="getPositionList" resultMap="PositionBaseMap">
+        SELECT * FROM position
+    </select>
+
+    <!--增加职位-->
+    <insert id="savePosition" parameterType="com.ctgu.pojo.Position" >
+        INSERT INTO position (p_id, p_name) VALUES (#{p_id}, #{p_name})
+    </insert>
+
+    <!--删除职位-->
+    <delete id="deletePosById" parameterType="int">
+        DELETE FROM position WHERE p_id = #{p_id}
+    </delete>
+
+    <!--更新职位-->
+    <update id="updatePosition" parameterType="com.ctgu.pojo.Position">
+        UPDATE position SET p_name = #{p_name} WHERE p_id = #{p_id}
+    </update>
+
+    <!--根据id查找职位-->
+    <select id="getPositionById" parameterType="int" resultType="com.ctgu.pojo.Position">
+        SELECT * FROM position WHERE p_id = #{p_id}
+    </select>
+</mapper>

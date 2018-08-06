@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.SignDao">
+
+    <resultMap id="SignBaseMap" type="com.ctgu.pojo.Sign">
+        <id column="sig_id" property="sig_id"/>
+        <result column="sig_name" property="sig_name"/>
+        <result column="sig_num" property="sig_num"/>
+        <result column="sig_sex" property="sig_sex"/>
+        <result column="s_birth" property="s_birth"/>
+        <result column="sig_tel" property="sig_tel"/>
+        <result column="sig_email" property="sig_email"/>
+        <result column="sig_first_department" property="sig_first_department"/>
+        <result column="sig_second_department" property="sig_second_department"/>
+        <result column="sig_talent" property="sig_talent"/>
+        <result column="sig_reason" property="sig_reason"/>
+        <result column="sig_nation" property="sig_nation"/>
+        <result column="sig_adjust" property="sig_adjust"/>
+        <result column="sig_picture" property="sig_picture"/>
+        <result column="sig_status" property="sig_status"/>
+    </resultMap>
+
+    <insert id="saveSign" parameterType="com.ctgu.pojo.Sign">
+        INSERT INTO sign(sig_id, sig_name, sig_num, sig_sex, s_birth, sig_tel, sig_email, sig_first_department,
+         sig_second_department, sig_talent, sig_reason, sig_nation, sig_adjust, sig_picture, sig_status) VALUES (#{sig_id}, #{sig_name},
+         #{sig_num}, #{sig_sex}, #{s_birth}, #{sig_tel}, #{sig_email}, #{sig_first_department}, #{sig_second_department},
+          #{sig_talent}, #{sig_reason}, #{sig_nation}, #{sig_adjust}, #{sig_picture}, #{sig_status})
+    </insert>
+
+    <update id="updateSign" parameterType="com.ctgu.pojo.Sign">
+        update sign set sig_name = #{sig_name}, sig_sex = #{sig_sex}, s_birth = #{s_birth},
+          sig_tel = #{sig_tel}, sig_email = #{sig_email}, sig_first_department = #{sig_first_department},
+          sig_second_department = #{sig_second_department}, sig_talent = #{sig_talent},
+          sig_reason = #{sig_reason}, sig_nation = #{sig_nation}, sig_adjust = #{sig_adjust}, sig_picture = #{sig_picture},
+           sig_status = #{sig_status} where sig_num = #{sig_num}
+    </update>
+
+
+    <!--根据学号查找报名信息-->
+    <select id="getSignByNum" parameterType="String" resultType="com.ctgu.pojo.Sign">
+        SELECT * FROM sign WHERE sig_num = #{sig_num}
+    </select>
+
+    <!--查看所有报名信息-->
+    <select id="getAllSign" resultMap="SignBaseMap">
+        select * from sign;
+    </select>
+
+    <!--根据学号修改状态-->
+    <update id="updateStatus">
+        UPDATE sign SET sig_status = #{0} WHERE sig_num = #{1}
+    </update>
+
+    <!--根据部门名称查找报名信息-->
+    <select id="getSignByDep" parameterType="String" resultMap="SignBaseMap">
+        SELECT * FROM sign WHERE sig_first_department = #{d_name}
+    </select>
+
+</mapper>

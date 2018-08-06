@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.UserDao">
+
+    <resultMap id="UserBaseMap" type="com.ctgu.pojo.User">
+        <id column="uid" property="uid"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="u_number" property="u_number"/>
+        <result column="salt" property="salt"/>
+        <result column="register_time" property="register_time" javaType="java.sql.Timestamp"/>
+        <result column="u_mail" property="u_mail" />
+        <result column="u_power" property="u_power"/>
+    </resultMap>
+
+    <select id="getUserByName" parameterType="String" resultType="com.ctgu.pojo.User">
+        SELECT * FROM user WHERE username = #{username}
+    </select>
+
+    <select id="getUserByNumber" parameterType="String" resultType="com.ctgu.pojo.User">
+        SELECT * FROM user WHERE u_number = #{u_number}
+    </select>
+
+    <!--插入用户-->
+    <insert id="saveUser" parameterType="com.ctgu.pojo.User">
+        INSERT INTO user(uid, username, password, u_number,u_mail, salt, register_time, u_power) VALUES (#{uid}, #{username},
+        #{password}, #{u_number},#{u_mail}, #{salt}, #{register_time}, #{u_power})
+    </insert>
+
+    <!--更新密码-->
+    <update id="updatePwd" parameterType="com.ctgu.pojo.User">
+        UPDATE user SET password = #{password} WHERE uid = #{uid}
+    </update>
+
+    <!--获取所有用户-->
+    <select id="getAllUser" resultMap="UserBaseMap">
+        SELECT * FROM user
+    </select>
+
+    <update id="updatePower">
+        UPDATE user SET u_power = #{1} WHERE u_number = #{0}
+    </update>
+
+    <update id="updatePassword">
+        UPDATE user SET password = #{1} WHERE u_number = #{0}
+    </update>
+
+    <update id="updateUser" parameterType="com.ctgu.pojo.User">
+        UPDATE user SET username = #{username}, password = #{password},
+        u_mail = #{u_mail}, u_power = #{u_power} WHERE  u_number = #{u_number}
+    </update>
+
+</mapper>

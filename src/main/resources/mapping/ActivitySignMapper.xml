@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.ActivitySignDao">
+
+    <resultMap id="ActivitySignBaseMap" type="com.ctgu.pojo.ActivitySign">
+        <id column="as_id" property="as_id"/>
+        <result column="a_name" property="a_name"/>
+        <result column="s_name" property="s_name"/>
+        <result column="s_num" property="s_num"/>
+        <result column="s_sex" property="s_sex"/>
+        <result column="s_acd" property="s_acd"/>
+        <result column="s_class" property="s_class"/>
+        <result column="s_tel" property="s_tel"/>
+        <result column="s_mail" property="s_mail"/>
+        <result column="as_time" property="as_time" javaType="java.sql.Timestamp"/>
+    </resultMap>
+
+    <insert id="saveActivitySign" parameterType="com.ctgu.pojo.ActivitySign">
+        INSERT INTO activity_sign(as_id, a_name, s_name, s_num, s_sex, s_acd, s_class
+        , s_tel, s_mail, as_time) VALUES (#{as_id}, #{a_name}, #{s_name}, #{s_num}, #{s_sex}, #{s_acd},
+        #{s_class}, #{s_tel}, #{s_mail}, #{as_time})
+    </insert>
+
+    <select id="gerActivitySignList" parameterType="String" resultMap="ActivitySignBaseMap">
+        SELECT * FROM activity_sign WHERE a_name = #{a_name}
+    </select>
+
+</mapper>

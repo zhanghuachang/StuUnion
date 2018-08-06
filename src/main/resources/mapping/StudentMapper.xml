@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.StudentDao">
+
+    <resultMap id="StudentBaseMap" type="com.ctgu.pojo.Student">
+        <id column="sid" property="sid"/>
+        <result column="s_name" property="s_name" />
+        <result column="s_num" property="s_num" />
+        <result column="password" property="password" />
+        <result column="s_sex" property="s_sex" />
+        <result column="s_acd" property="s_acd" />
+        <result column="s_maj" property="s_maj" />
+        <result column="d_name" property="d_name" />
+        <result column="p_name" property="p_name" />
+        <result column="s_birth" property="s_birth"/>
+        <result column="s_tel" property="s_tel" />
+        <result column="s_mail" property="s_mail"/>
+        <result column="s_qq" property="s_qq" />
+        <result column="s_power" property="s_power" />
+        <result column="join_time" property="join_time" javaType="java.sql.Timestamp"/>
+    </resultMap>
+    <!--查找所有用户信息-->
+    <select id="getStudentList" resultMap="StudentBaseMap">
+        SELECT * FROM student;
+    </select>
+
+    <!--保存用户-->
+    <insert id="saveStudent" parameterType="com.ctgu.pojo.Student" >
+        INSERT INTO student(sid, s_name, s_num, s_sex, s_acd, s_maj, d_name, p_name, s_birth
+        , s_tel, s_mail, s_qq, s_power, join_time) VALUES (#{sid}, #{s_name}, #{s_num}, #{s_sex},
+         #{s_acd}, #{s_maj}, #{d_name}, #{p_name}, #{s_birth}, #{s_tel}, #{s_mail}, #{s_qq}, #{s_power}
+         , #{join_time})
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateStudent" parameterType="com.ctgu.pojo.Student">
+        UPDATE student SET s_name = #{s_name}, s_sex = #{s_sex}, s_acd = #{s_acd}, s_maj=#{s_maj},
+        d_name=#{d_name},p_name=#{p_name}, s_birth=#{s_birth}, s_tel=#{s_tel}, s_mail=#{s_mail},
+        s_qq=${s_qq}, s_power=#{s_power}, join_time=#{join_time} WHERE sid = #{sid}
+    </update>
+
+    <!--根据自身权限查看低权限用户的信息-->
+    <select id="powerStudentList" parameterType="int">
+        SELECT * FROM student WHERE s_power > #{s_power} ORDER BY s_power
+    </select>
+    
+    <!--根据学号查找信息-->
+    <select id="studentInfo" parameterType="String" resultType="com.ctgu.pojo.Student">
+        SELECT * FROM student WHERE s_num = #{s_num}
+    </select>
+
+    <!--根据sid删除用户-->
+    <delete id="deleteStudent" parameterType="int">
+        DELETE FROM student WHERE sid = #{sid}
+    </delete>
+
+    <!--根据学号更新部门和职位-->
+    <update id="updateDep" parameterType="com.ctgu.pojo.Student">
+        UPDATE student SET d_name = #{d_name}, p_name = #{p_name}, s_power = 3 WHERE s_num = #{s_num}
+    </update>
+
+    <!--在职人员名单获取-->
+    <select id="getPeoStudent" resultMap="StudentBaseMap">
+        SELECT * FROM student WHERE s_power != "4" AND s_power != "0"
+    </select>
+
+    <!--根据部门查找在职人员-->
+    <select id="getStudentByDep" parameterType="String" resultMap="StudentBaseMap">
+        SELECT * FROM student WHERE d_name = #{d_name}
+    </select>
+
+    <!--根据学号修改权限-->
+    <update id="updatePowerByNum">
+        UPDATE student SET s_power = #{1} WHERE s_num = #{0}
+    </update>
+</mapper>

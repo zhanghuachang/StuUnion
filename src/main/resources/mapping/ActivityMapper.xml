@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.ActivityDao">
+
+    <resultMap id="ActivityBaseMap" type="com.ctgu.pojo.Activity">
+        <id column="a_id" property="a_id"/>
+        <result column="a_name" property="a_name"/>
+        <result column="a_class" property="a_class"/>
+        <result column="d_name" property="d_name"/>
+        <result column="a_describe" property="a_describe"/>
+        <result column="a_time" property="a_time"/>
+        <result column="a_place" property="a_place"/>
+        <result column="application_time" property="application_time" javaType="java.sql.Timestamp"/>
+        <result column="a_status" property="a_status"/>
+        <result column="a_apply_name" property="a_apply_name"/>
+        <result column="a_decide_name" property="a_decide_name"/>
+        <result column="a_url" property="a_url"/>
+    </resultMap>
+
+    <select id="getAllActivityList" resultMap="ActivityBaseMap">
+        SELECT * FROM activity ORDER BY application_time DESC
+    </select>
+
+    <insert id="saveActivity" parameterType="com.ctgu.pojo.Activity">
+        INSERT INTO activity(a_id, a_name, a_class, d_name, a_describe, a_time, a_place, application_time,
+        a_status, a_apply_name, a_decide_name, a_url) VALUES (#{a_id}, #{a_name}, #{a_class}, #{d_name}, #{a_describe},
+        #{a_time}, #{a_place}, #{application_time}, #{a_status}, #{a_apply_name}, #{a_decide_name}, #{a_url})
+    </insert>
+
+    <!--已经举办过的活动，即status为1-->
+    <select id="getActivityList" resultMap="ActivityBaseMap">
+        SELECT * FROM activity WHERE a_status = 1
+    </select>
+
+    <!--根据a_id更新活动状态-->
+    <update id="updateStatus">
+        UPDATE activity SET a_status = #{1} WHERE a_id = #{0}
+    </update>
+
+    <select id="getActivity" parameterType="int" resultType="com.ctgu.pojo.Activity">
+        SELECT * FROM activity WHERE a_id = #{a_id}
+    </select>
+
+    <!--按时间查找活动-->
+    <select id="searchActivity" resultMap="ActivityBaseMap">
+        SELECT * FROM activity WHERE a_time >= #{0} AND #{1} >= a_time
+    </select>
+
+</mapper>

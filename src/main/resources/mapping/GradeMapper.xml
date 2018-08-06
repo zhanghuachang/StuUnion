@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ctgu.dao.GradeDao">
+
+    <resultMap id="GradeBaseMap" type="com.ctgu.pojo.Grade">
+        <id column="g_id" property="g_id"/>
+        <result column="a_name" property="a_name"/>
+        <result column="g_class" property="g_class"/>
+        <result column="g_value" property="g_value"/>
+        <result column="s_num" property="s_num"/>
+        <result column="s_name" property="s_name"/>
+        <result column="s_class" property="s_class"/>
+        <result column="g_time" property="g_time" javaType="java.sql.Timestamp"/>
+        <result column="g_status" property="g_status"/>
+        <result column="g_decide_name" property="g_decide_name"/>
+        <result column="g_prove" property="g_prove"/>
+    </resultMap>
+    
+    <insert id="saveGrade" parameterType="com.ctgu.pojo.Grade">
+        INSERT INTO grade(g_id, a_name, g_class, g_value, s_num, s_name, s_class, g_time, g_status, g_decide_name, g_prove)
+        VALUES (#{g_id}, #{a_name}, #{g_class}, #{g_value}, #{s_num}, #{s_name}, #{s_class}, #{g_time}, #{g_status}
+        , #{g_decide_name}, #{g_prove})
+    </insert>
+
+    <!--根据学号查找该用户参加过的活动-->
+    <select id="getGradeByNum" parameterType="String" resultMap="GradeBaseMap">
+        SELECT * FROM grade WHERE s_num = #{s_num}  AND g_status = 1
+    </select>
+
+    <!--根据活动名称查找到参与该活动的所有人员-->
+    <select id="getAllGradeListByName" parameterType="String" resultMap="GradeBaseMap">
+        SELECT * FROM grade WHERE a_name = #{a_name}
+    </select>
+
+    <!--按时间查找未处理的加分申请-->
+    <select id="getAllGrade" resultMap="GradeBaseMap">
+        SELECT * FROM grade WHERE g_status = 0
+    </select>
+
+    <!--根据id查找加分详情-->
+    <select id="getGrade" parameterType="int" resultType="com.ctgu.pojo.Grade">
+        SELECT * FROM grade WHERE g_id = #{g_id}
+    </select>
+
+    <!--根据g_id更新加分状态-->
+    <update id="updateStatus">
+        UPDATE grade SET g_status = #{1} WHERE g_id = #{0}
+    </update>
+    
+    <!--获取用户签到总分-->
+    <select id="getGradeSign" parameterType="String" resultType="Double">
+        select sum(g_value) from grade where g_class = '签到'and g_status = 1 and  s_num = #{s_num} GROUP BY NULL;
+    </select>
+
+    <!--获取用户参与总分-->
+    <select id="getGradeJoin" parameterType="String" resultType="Double">
+        select sum(g_value) from grade where g_class = '参与' and g_status = 1 and s_num = #{s_num} GROUP BY NULL;
+    </select>
+
+    <!--获取用户组织总分-->
+    <select id="getGradeOrg" parameterType="String" resultType="Double">
+        select sum(g_value) from grade where g_class = '组织' and g_status = 1 and s_num = #{s_num} GROUP BY NULL;
+    </select>
+
+    <!--获取用户获奖总分-->
+    <select id="getGradePrize" parameterType="String" resultType="Double">
+        select sum(g_value) from grade where g_class = '获奖' and g_status = 1 and s_num = #{s_num} GROUP BY NULL;
+    </select>
+
+    <!--获取用户总分-->
+    <select id="getGradeSum" parameterType="String" resultType="Double">
+        select sum(g_value) from grade where g_status = 1 and s_num = #{s_num} GROUP BY NULL;
+    </select>
+
+    <!--根据加分类型查找-->
+    <select id="getGradeByClass" resultMap="GradeBaseMap">
+        SELECT * FROM grade WHERE g_class = #{0} and s_num = #{1} and g_status = 1
+    </select>
+</mapper>

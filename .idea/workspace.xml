@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StuUnion" />
+      <artifact name="StuUnion:war" />
+      <artifact name="StuUnion:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84796b22-7708-43fb-b82d-3732162948f4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="StuUnion" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="DepartmentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/DepartmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2862">
+              <caret line="124" column="42" lean-forward="false" selection-start-line="124" selection-start-column="42" selection-end-line="124" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/activity_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8370">
+              <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+              <folding>
+                <marker date="1525411965630" expanded="true" signature="7445:7462" ph="..." />
+                <marker date="1525411965630" expanded="true" signature="7748:7756" ph="&amp;##xe64a;" />
+                <marker date="1525411965630" expanded="true" signature="7774:7780" ph="&amp;nbsp;" />
+                <marker date="1525411965630" expanded="true" signature="7780:7786" ph="&amp;nbsp;" />
+                <marker date="1525411965630" expanded="true" signature="7927:7935" ph="&amp;##xe64a;" />
+                <marker date="1525411965630" expanded="true" signature="12408:12425" ph="..." />
+                <marker date="1525411965630" expanded="true" signature="12711:12719" ph="&amp;##xe64a;" />
+                <marker date="1525411965630" expanded="true" signature="12737:12743" ph="&amp;nbsp;" />
+                <marker date="1525411965630" expanded="true" signature="12743:12749" ph="&amp;nbsp;" />
+                <marker date="1525411965630" expanded="true" signature="12890:12898" ph="&amp;##xe64a;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1809">
+              <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="286" column="13" lean-forward="false" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/GradeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2052">
+              <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/GradeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2052">
+              <caret line="76" column="69" lean-forward="false" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+              <folding>
+                <marker date="1525343768694" expanded="true" signature="965:1236" ph="INSERT INTO grade... " />
+                <marker date="1525343768694" expanded="true" signature="1367:1427" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="1570:1614" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="1718:1744" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="1718:1756" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="1882:1922" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="2001:2051" ph="UPDATE grade... " />
+                <marker date="1525343768694" expanded="true" signature="2173:2262" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2173:2276" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2395:2484" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2395:2498" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2616:2705" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2616:2719" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2839:2928" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="2839:2942" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="3058:3142" ph="select sum(g... grade" />
+                <marker date="1525343768694" expanded="true" signature="3246:3286" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="3246:3303" ph="SELECT * FRO... grade" />
+                <marker date="1525343768694" expanded="true" signature="3246:3320" ph="SELECT * FRO... grade" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login-submit</find>
+      <find>loginForm</find>
+      <find>activity_situation</find>
+      <find>SignIn</find>
+      <find>g_id</find>
+      <find>_id</find>
+      <find>s_class</find>
+      <find>s_num</find>
+      <find>sign_adjust</find>
+      <find>user-list</find>
+      <find>rec_detail</find>
+      <find>../../</find>
+      <find>username</find>
+      <find>studentManage</find>
+      <find>sig_id</find>
+      <find>signDetail</find>
+      <find>html</find>
+      <find>s_name</find>
+      <find>sign_name</find>
+      <find>s_aca</find>
+      <find>submit</find>
+      <find>d_name</find>
+      <find>cont</find>
+      <find>iconfont</find>
+      <find>peoManagement</find>
+      <find>Integer.valueOf(</find>
+      <find>console</find>
+      <find>addActivity</find>
+      <find>../..</find>
+      <find>final_department</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>职位</replace>
+      <replace>position</replace>
+      <replace>/</replace>
+      <replace>console.log</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/activity_application.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student_manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav_minister.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/depManage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav_director.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/SignController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recruitApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/dao/ActivityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/service/ActivityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/service/impl/ActivityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ActivityMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/service/SignService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/grade_record.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/service/GradeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/service/impl/GradeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/dao/GradeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/GradeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/activity_application.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/grade_application.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/GradeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_application.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recruitApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_notice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_notice.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/SignMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sign_manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/pojo/Sign.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recruitApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recruitApply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ctgu/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/depManage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav_director.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/nav_minister.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/GradeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student_manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/activity_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StuUnion Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ctgu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ctgu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StuUnion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StuUnion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\StuUnion\src\main\webapp" />
+      <recent name="H:\StuUnion\src\main\webapp\WEB-INF\jsp" />
+      <recent name="H:\StuUnion\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\StuUnion\src\main\webapp\bootstrap-3.3.7-dist\js" />
+      <recent name="H:\StuUnion\src\main\webapp\bootstrap-3.3.7-dist\css" />
+      <recent name="H:\StuUnion\src\main\webapp\js" />
+      <recent name="H:\StuUnion\src\main\webapp\images" />
+      <recent name="H:\StuUnion\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_StuUnion_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64155" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration name="StuUnion" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="StuUnion:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_StuUnion" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64129" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="StuUnion:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="StuUnion">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_StuUnion" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64129" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="StuUnion:war exploded" />
+          <artifact name="StuUnion:war" />
+          <artifact name="StuUnion" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84796b22-7708-43fb-b82d-3732162948f4" name="Default" comment="" />
+      <created>1523190607302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523190607302</updated>
+      <workItem from="1523190609437" duration="2916000" />
+      <workItem from="1523193617189" duration="188000" />
+      <workItem from="1523355900175" duration="50000" />
+      <workItem from="1523364404396" duration="236000" />
+      <workItem from="1523364747004" duration="725000" />
+      <workItem from="1523427840234" duration="2587000" />
+      <workItem from="1523532054721" duration="761000" />
+      <workItem from="1523533093126" duration="111000" />
+      <workItem from="1523533286624" duration="226000" />
+      <workItem from="1523683082583" duration="3362000" />
+      <workItem from="1523688077228" duration="954000" />
+      <workItem from="1523689142168" duration="7068000" />
+      <workItem from="1523845725856" duration="310000" />
+      <workItem from="1523858762075" duration="29000" />
+      <workItem from="1523866487740" duration="3909000" />
+      <workItem from="1523935168296" duration="25579000" />
+      <workItem from="1524010160512" duration="11474000" />
+      <workItem from="1524041107952" duration="19000" />
+      <workItem from="1524048127518" duration="12632000" />
+      <workItem from="1524099527122" duration="14470000" />
+      <workItem from="1524187972283" duration="11221000" />
+      <workItem from="1524211955926" duration="14687000" />
+      <workItem from="1524276436336" duration="22948000" />
+      <workItem from="1524446582452" duration="3804000" />
+      <workItem from="1524452750436" duration="17479000" />
+      <workItem from="1524534901646" duration="4718000" />
+      <workItem from="1524544081946" duration="1321000" />
+      <workItem from="1524545559750" duration="22276000" />
+      <workItem from="1524654211276" duration="9019000" />
+      <workItem from="1524705630900" duration="12235000" />
+      <workItem from="1524732497322" duration="10050000" />
+      <workItem from="1524811602132" duration="11758000" />
+      <workItem from="1524880591318" duration="9739000" />
+      <workItem from="1524931776671" duration="2633000" />
+      <workItem from="1524967533356" duration="25696000" />
+      <workItem from="1525011915075" duration="6666000" />
+      <workItem from="1525057704245" duration="20003000" />
+      <workItem from="1525139610980" duration="23804000" />
+      <workItem from="1525173054720" duration="8270000" />
+      <workItem from="1525231596008" duration="5785000" />
+      <workItem from="1525243929494" duration="980000" />
+      <workItem from="1525245099776" duration="10551000" />
+      <workItem from="1525257002263" duration="27911000" />
+      <workItem from="1525296440948" duration="4216000" />
+      <workItem from="1525301148898" duration="4158000" />
+      <workItem from="1525328137591" duration="1157000" />
+      <workItem from="1525330417813" duration="9524000" />
+      <workItem from="1525411585262" duration="1418000" />
+      <workItem from="1525505679862" duration="741000" />
+      <workItem from="1525840245958" duration="10000" />
+      <workItem from="1526221729804" duration="846000" />
+      <workItem from="1526358231226" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="393274000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24860647" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29988852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110368" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24250536" sideWeight="0.4882943" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2682013" sideWeight="0.5117057" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2617773" sideWeight="0.5078125" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25975475" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="50" column="55" lean-forward="false" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <marker date="1525236243733" expanded="true" signature="536:560" ph="SELECT * FRO... department" />
+            <marker date="1525236243733" expanded="true" signature="677:768" ph="INSERT INTO department... " />
+            <marker date="1525236243733" expanded="true" signature="884:973" ph="UPDATE department... " />
+            <marker date="1525236243733" expanded="true" signature="1069:1112" ph="DELETE FROM department... " />
+            <marker date="1525236243733" expanded="true" signature="1250:1295" ph="SELECT * FRO... department" />
+            <marker date="1525236243733" expanded="true" signature="1440:1481" ph="SELECT * FRO... department" />
+            <marker date="1525236243733" expanded="true" signature="1440:1489" ph="SELECT * FRO... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/qrcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/activity_manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="155" column="8" lean-forward="false" selection-start-line="155" selection-start-column="8" selection-end-line="157" selection-end-column="9" />
+          <folding>
+            <marker date="1525095346562" expanded="true" signature="7847:7855" ph="&amp;##xe60a;" />
+            <marker date="1525095346562" expanded="true" signature="7978:7986" ph="&amp;##x1005;" />
+            <marker date="1525095346562" expanded="true" signature="8112:8120" ph="&amp;##x1007;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/dep_introduce.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="51" column="41" lean-forward="false" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/SignDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="49" column="78" lean-forward="false" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+          <folding>
+            <marker date="1525254818300" expanded="true" signature="824:871" ph="SELECT * FRO... user" />
+            <marker date="1525254818300" expanded="true" signature="984:1031" ph="SELECT * FRO... user" />
+            <marker date="1525254818300" expanded="true" signature="1133:1333" ph="INSERT INTO user... " />
+            <marker date="1525254818300" expanded="true" signature="1436:1493" ph="UPDATE user... " />
+            <marker date="1525254818300" expanded="true" signature="1588:1606" ph="SELECT * FRO... user" />
+            <marker date="1525254818300" expanded="true" signature="1660:1712" ph="UPDATE user... " />
+            <marker date="1525254818300" expanded="true" signature="1769:1784" ph="UPDATE user... " />
+            <marker date="1525254818300" expanded="true" signature="1769:1793" ph="UPDATE user... " />
+            <marker date="1525254818300" expanded="true" signature="1769:1822" ph="UPDATE user... " />
+            <marker date="1525254818300" expanded="true" signature="1910:2052" ph="UPDATE user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/ActivityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/impl/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="47" column="62" lean-forward="false" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/ActivitySignDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/ActivityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+          <folding>
+            <marker date="1525279725348" expanded="true" signature="1059:1112" ph="SELECT * FRO... activity" />
+            <marker date="1525279725348" expanded="true" signature="1206:1534" ph="INSERT INTO activity... " />
+            <marker date="1525279725348" expanded="true" signature="1650:1691" ph="SELECT * FRO... activity" />
+            <marker date="1525279725348" expanded="true" signature="1770:1823" ph="UPDATE activity... " />
+            <marker date="1525279725348" expanded="true" signature="1933:1976" ph="SELECT * FRO... activity" />
+            <marker date="1525279725348" expanded="true" signature="2080:2108" ph="SELECT * FRO... activity" />
+            <marker date="1525279725348" expanded="true" signature="2080:2128" ph="SELECT * FRO... activity" />
+            <marker date="1525279725348" expanded="true" signature="2080:2142" ph="SELECT * FRO... activity" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="116" column="11" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/ActivityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/impl/SignServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/SignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/grade_record.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="189" column="48" lean-forward="false" selection-start-line="189" selection-start-column="48" selection-end-line="189" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/activity_application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="122" column="45" lean-forward="false" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/grade_application.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7263">
+          <caret line="269" column="15" lean-forward="false" selection-start-line="269" selection-start-column="15" selection-end-line="269" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/dao/GradeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/GradeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/service/impl/GradeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/activity_application.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7587">
+          <caret line="281" column="44" lean-forward="false" selection-start-line="281" selection-start-column="44" selection-end-line="281" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/ActivityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="169" column="18" lean-forward="false" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/activity_notice.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="258" column="22" lean-forward="false" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
+          <folding>
+            <marker date="1525324756439" expanded="true" signature="10058:10075" ph="..." />
+            <marker date="1525324756439" expanded="true" signature="10326:10334" ph="&amp;##xe62d;" />
+            <marker date="1525324756439" expanded="true" signature="10449:10457" ph="&amp;##xe64a;" />
+            <marker date="1525324756439" expanded="true" signature="10566:10574" ph="&amp;##xe63c;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/attendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/sign_manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="263" column="76" lean-forward="false" selection-start-line="263" selection-start-column="68" selection-end-line="263" selection-end-column="76" />
+          <folding>
+            <marker date="1525326616647" expanded="true" signature="6412:6422" ph="..." />
+            <marker date="1525326616647" expanded="true" signature="6672:6688" ph="..." />
+            <marker date="1525326616647" expanded="true" signature="7026:7043" ph="..." />
+            <marker date="1525326616647" expanded="true" signature="12024:12034" ph="..." />
+            <marker date="1525326616647" expanded="true" signature="14092:14102" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/pojo/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/SignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/SignMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <marker date="1525325838648" expanded="true" signature="1240:1703" ph="INSERT INTO sign... " />
+            <marker date="1525325838648" expanded="true" signature="1791:2257" ph="update sign... " />
+            <marker date="1525325838648" expanded="true" signature="2390:2435" ph="SELECT * FRO... sign" />
+            <marker date="1525325838648" expanded="true" signature="2532:2550" ph="select * fro... sign" />
+            <marker date="1525325838648" expanded="true" signature="2626:2680" ph="UPDATE sign... " />
+            <marker date="1525325838648" expanded="true" signature="2806:2863" ph="SELECT * FRO... sign" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/recruitApply.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4266">
+          <caret line="158" column="44" lean-forward="false" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="119" column="39" lean-forward="false" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/depManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+          <folding>
+            <marker date="1525332356831" expanded="true" signature="13770:13778" ph="&amp;##xe600;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/nav_student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/nav_director.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/js/nav_minister.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/user_manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3753">
+          <caret line="139" column="50" lean-forward="false" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="50" />
+          <folding>
+            <marker date="1525249138637" expanded="true" signature="14446:14454" ph="&amp;##xe60a;" />
+            <marker date="1525249138637" expanded="true" signature="14561:14569" ph="&amp;##xe642;" />
+            <marker date="1525249138637" expanded="true" signature="14678:14686" ph="&amp;##xe620;" />
+            <marker date="1525249138637" expanded="true" signature="20311:20319" ph="&amp;##xe60a;" />
+            <marker date="1525249138637" expanded="true" signature="20426:20434" ph="&amp;##xe642;" />
+            <marker date="1525249138637" expanded="true" signature="20543:20551" ph="&amp;##xe620;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/student_manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="413" column="288" lean-forward="false" selection-start-line="413" selection-start-column="288" selection-end-line="413" selection-end-column="288" />
+          <folding>
+            <marker date="1525348041570" expanded="true" signature="10595:10603" ph="&amp;##xe60a;" />
+            <marker date="1525348041570" expanded="true" signature="13446:13454" ph="&amp;##xe60a;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/resources/mapping/GradeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="76" column="69" lean-forward="false" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+          <folding>
+            <marker date="1525343768694" expanded="true" signature="965:1236" ph="INSERT INTO grade... " />
+            <marker date="1525343768694" expanded="true" signature="1367:1427" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="1570:1614" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="1718:1744" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="1718:1756" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="1882:1922" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="2001:2051" ph="UPDATE grade... " />
+            <marker date="1525343768694" expanded="true" signature="2173:2262" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2173:2276" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2395:2484" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2395:2498" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2616:2705" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2616:2719" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2839:2928" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="2839:2942" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="3058:3142" ph="select sum(g... grade" />
+            <marker date="1525343768694" expanded="true" signature="3246:3286" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="3246:3303" ph="SELECT * FRO... grade" />
+            <marker date="1525343768694" expanded="true" signature="3246:3320" ph="SELECT * FRO... grade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2862">
+          <caret line="124" column="42" lean-forward="false" selection-start-line="124" selection-start-column="42" selection-end-line="124" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/activity_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8370">
+          <caret line="310" column="62" lean-forward="false" selection-start-line="310" selection-start-column="62" selection-end-line="310" selection-end-column="62" />
+          <folding>
+            <marker date="1525411965630" expanded="true" signature="7445:7462" ph="..." />
+            <marker date="1525411965630" expanded="true" signature="7748:7756" ph="&amp;##xe64a;" />
+            <marker date="1525411965630" expanded="true" signature="7774:7780" ph="&amp;nbsp;" />
+            <marker date="1525411965630" expanded="true" signature="7780:7786" ph="&amp;nbsp;" />
+            <marker date="1525411965630" expanded="true" signature="7927:7935" ph="&amp;##xe64a;" />
+            <marker date="1525411965630" expanded="true" signature="12408:12425" ph="..." />
+            <marker date="1525411965630" expanded="true" signature="12711:12719" ph="&amp;##xe64a;" />
+            <marker date="1525411965630" expanded="true" signature="12737:12743" ph="&amp;nbsp;" />
+            <marker date="1525411965630" expanded="true" signature="12743:12749" ph="&amp;nbsp;" />
+            <marker date="1525411965630" expanded="true" signature="12890:12898" ph="&amp;##xe64a;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/GradeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="76" column="13" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/java/com/ctgu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StuUnion/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="286" column="13" lean-forward="false" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>StuUnion</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StuUnion</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
